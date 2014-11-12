@@ -1,0 +1,45 @@
+/*
+  Example:
+
+  <div class="flag">
+    <div class="flag__image"></div>
+    <div class="flag__body"></div>
+  </div>
+*/
+
+%flag,
+.flag {
+  display: table;
+  width: 100%;
+}
+
+%flag__image,
+.flag__image,
+%flag__body,
+.flag__body {
+  display: table-cell;
+  vertical-align: middle;
+
+  .flag--top & {
+    vertical-align: top;
+  }
+
+  .flag--bottom & {
+    vertical-align: bottom;
+  }
+
+}
+
+%flag__image,
+.flag__image {
+
+  > img {
+    display: block;
+    max-width: none;
+  }
+}
+
+%flag__body,
+.flag__body {
+  width: 100%;
+}
