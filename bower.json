@@ -1,0 +1,27 @@
+{
+  "name": "spacelab-objects.flag",
+  "version": "0.1.0",
+  "authors": [
+    "Axel Salder",
+    "Daniel Blomeyer"
+  ],
+  "description": "here be a description",
+  "main": "_objects.flag.scss",
+  "keywords": [
+    "spacelab",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/spacelab/objects.flag",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "spacelab-objects.clearfix": "spacelab/ojects.clearfix"
+  }
+}
