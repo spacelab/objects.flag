@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "spacelab-objects.clearfix": "spacelab/ojects.clearfix"
+    "spacelab-objects.clearfix": "spacelab/objects.clearfix"
   }
 }
